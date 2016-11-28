@@ -11,5 +11,10 @@ namespace git_exam.Person {
         [YamlIgnore]
         [JsonIgnore]
         public string FullName => $"{Name} {Surname}";
+
+        public override string ToString()
+        {
+            return FullName;
+        }
     }
 }

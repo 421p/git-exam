@@ -50,6 +50,7 @@
     <Compile Include="Animals\Animal.cs" />
     <Compile Include="Factory\StorageItemFactory.cs" />
     <Compile Include="Factory\UselessFactory.cs" />
+    <Compile Include="ObjectProxy.cs" />
     <Compile Include="Person\IPerson.cs" />
     <Compile Include="Person\Hooman.cs" />
     <Compile Include="Program.cs" />

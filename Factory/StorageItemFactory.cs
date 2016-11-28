@@ -15,5 +15,10 @@ namespace git_exam.Factory {
         {
             return (T) JsonConvert.DeserializeObject(json, Type.GetType(fqcn));
         }
+
+        public object Unpack(string fqcn, string json)
+        {
+            return JsonConvert.DeserializeObject(json, Type.GetType(fqcn));
+        }
     }
 }
