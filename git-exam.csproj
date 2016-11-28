@@ -55,6 +55,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reader\AbstractGetter.cs" />
+    <Compile Include="Reader\CarsReader.cs" />
+    <Compile Include="Vehicles\Car.cs" />
     <Compile Include="Reader\PersonsReader.cs" />
   </ItemGroup>
   <ItemGroup>
